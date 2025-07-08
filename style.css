@@ -67,7 +67,7 @@ ul {
   display: none;
 }
 
-.container {
+.hero__section {
   position: relative;
   width: 100%;
   max-width: 1250px;
@@ -547,7 +547,7 @@ ul {
     display: none !important;
   }
 
-   .container {
+   .hero__section {
     align-items: flex-start;
   }
 
@@ -792,7 +792,7 @@ ul {
     text-underline-offset: 10px;
   }
 
-  .container {
+  .hero__section {
     align-items: flex-start;
   }
    .mobile-callback {
