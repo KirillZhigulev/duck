@@ -21,6 +21,13 @@ document.addEventListener('DOMContentLoaded', () => {
   closeBtn.addEventListener('click', closePopup);
   overlay.addEventListener('click', closePopup);
 
+  // Закрытие попапа по клавише Esc
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+      closePopup();
+    }
+  });
+
   // Обработка формы
   form.addEventListener('submit', (e) => {
     e.preventDefault();
