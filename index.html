@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Много уточек
+  </title>
+  <link href="style.css" rel="stylesheet"/>
+  <script src="/src/main.js" type="module">
+  </script>
+ </head>
+ <body>
+  <main class="main">
+   <div class="container">
+    <header class="header">
+     <img alt="Логотип" class="logo" src="/image/icons/logo.png"/>
+     <!-- Бургер-кнопка -->
+     <button aria-label="Меню" class="burger" id="burger">
+      <img alt="Меню" src="/image/icons/burger.svg"/>
+     </button>
+     <!-- Навигация -->
+     <nav class="header__nav">
+      <ul class="header__list" id="headermenu">
+       <li class="header__item">
+        <a class="header__link header__link_active" href="#">
+         Главная
+        </a>
+       </li>
+       <li class="header__item with-submenu">
+        <a class="header__link" href="#">
+         Каталог
+         <img alt="Стрелка вниз" class="downarrow" src="/image/icons/downarrow.svg"/>
+        </a>
+        <ul class="submenu">
+         <li>
+          <a href="#">
+           Утка 1
+          </a>
+         </li>
+         <li>
+          <a href="#">
+           Утка 2
+          </a>
+         </li>
+         <li>
+          <a href="#">
+           Утка 3
+          </a>
+         </li>
+         <li>
+          <a href="#">
+           Утка 4
+          </a>
+         </li>
+         <li>
+          <a href="#">
+           Утка 5
+          </a>
+         </li>
+        </ul>
+       </li>
+       <li class="header__item">
+        <a class="header__link" href="#">
+         Блог
+        </a>
+       </li>
+       <li class="header__item">
+        <a class="header__link" href="#">
+         Отзывы
+        </a>
+       </li>
+       <li class="header__item">
+        <a class="header__link" href="#">
+         Контакты
+        </a>
+       </li>
+       <li class="header__item mobile-callback">
+        <button class="header__button">
+         Заказать обратный звонок
+        </button>
+       </li>
+      </ul>
+     </nav>
+     <div class="header__buttons">
+      <div class="header__buttons__basket" id="buttonBasket">
+      </div>
+      <button class="header__button">
+       Заказать обратный звонок
+      </button>
+     </div>
+    </header>
+    <div class="burger-overlay" id="burgerOverlay">
+    </div>
+    <div class="welcome">
+     <div class="welcome__container">
+      <h1 class="main__title">
+       <span>
+        Много
+       </span>
+       <br/>
+       <span class="main__title__span">
+        уточек
+       </span>
+      </h1>
+      <div class="desc">
+       <h2 class="sub__title">
+        Маленький друг найдётся для каждого в этом кряквенно жёлтом мире
+       </h2>
+       <a class="main__button" href="#" id="main__buttonClick">
+        Смотреть уточек
+       </a>
+      </div>
+     </div>
+     <div class="welcome__image__duck">
+      <img alt="Уточка" class="duck-img" src="/image/duck.png"/>
+     </div>
+     <div class="welcome__image__scream">
+      <img alt="Кря" class="duckscream-img" src="/image/scream.png"/>
+     </div>
+     <div>
+      <div class="footer__category">
+       <ul class="footer__category__list" id="categoryList">
+        <li class="footer__category__item">
+         <a class="footer__category__link" href="#">
+          <svg class="footer__category__icon" fill="none" height="24" viewbox="0 0 24 24" width="24">
+           <path d="M5 12h14M13 5l7 7-7 7" stroke="currentColor" stroke-width="2">
+           </path>
+          </svg>
+          Классические
+         </a>
+        </li>
+        <li class="footer__category__item">
+         <a class="footer__category__link" href="#">
+          <svg class="footerr__category__icon" fill="none" height="24" viewbox="0 0 24 24" width="24">
+           <path d="M5 12h14M13 5l7 7-7 7" stroke="currentColor" stroke-width="2">
+           </path>
+          </svg>
+          Уточки панки
+         </a>
+        </li>
+        <li class="footerr__category__item">
+         <a class="footer__category__link" href="#">
+          <svg class="footer__category__icon" fill="none" height="24" viewbox="0 0 24 24" width="24">
+           <path d="M5 12h14M13 5l7 7-7 7" stroke="currentColor" stroke-width="2">
+           </path>
+          </svg>
+          Супергерои
+         </a>
+        </li>
+        <li class="footer__category__item">
+         <a class="footer__category__link" href="#">
+          <svg class="footer__category__icon" fill="none" height="24" viewbox="0 0 24 24" width="24">
+           <path d="M5 12h14M13 5l7 7-7 7" stroke="currentColor" stroke-width="2">
+           </path>
+          </svg>
+          Милые
+         </a>
+        </li>
+        <li class="footer__category__item">
+         <a class="footer__category__link" href="#">
+          <svg class="footer__category__icon" fill="none" height="24" viewbox="0 0 24 24" width="24">
+           <path d="M5 12h14M13 5l7 7-7 7" stroke="currentColor" stroke-width="2">
+           </path>
+          </svg>
+          Для детей
+         </a>
+        </li>
+        <li class="footer__category__item">
+         <a class="footer__category__link" href="#">
+          <svg class="footer__category__icon" fill="none" height="24" viewbox="0 0 24 24" width="24">
+           <path d="M5 12h14M13 5l7 7-7 7" stroke="currentColor" stroke-width="2">
+           </path>
+          </svg>
+          Взрослым
+         </a>
+        </li>
+       </ul>
+      </div>
+     </div>
+    </div>
+   </div>
+  </main>
+  <div class="callback-popup" id="callbackPopup">
+   <div class="callback-popup__overlay">
+   </div>
+   <div class="callback-popup__content">
+    <button aria-label="Закрыть окно" class="callback-popup__close" id="callbackClose">
+     ×
+    </button>
+    <form class="callback-form" id="callbackForm">
+     <label for="name">
+      Имя
+      <span>
+       *
+      </span>
+     </label>
+     <input id="name" name="name" placeholder="Введите ваше имя" required="" type="text"/>
+     <label for="phone">
+      Телефон
+      <span>
+       *
+      </span>
+     </label>
+     <input id="phone" name="phone" placeholder="+7 000 000 00 00" required="" type="tel"/>
+     <button class="callback-form__submit" type="submit">
+      Отправить
+     </button>
+     <p class="callback-form__agreement">
+      Нажимая кнопку “Отправить”, вы соглашаетесь
+      <br/>
+      с
+      <a href="#">
+       политикой конфиденциальности
+      </a>
+      и
+      <a href="#">
+       договором оферты
+      </a>
+     </p>
+    </form>
+   </div>
+  </div>
+ </body>
+</html>
